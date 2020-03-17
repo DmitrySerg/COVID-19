@@ -45,9 +45,11 @@ We consider a city infected if at least one infected plane landed in this city. 
 
 <img src="pictures/plane_infected.png" width=200 align='center'>,
 
-where *I* - number of infected in the city, *N* - total population of the city
+where *I* - number of infected in the city, *N* - total population of the city.
 
+Next, we can calculate the probability that the city is infected:
 
+<img src="pictures/city_infected.png" width=200 align='center'>,
 
 
 Intermediate results of the modelling can be found on plots below.
