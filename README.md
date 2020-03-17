@@ -43,7 +43,7 @@ To model the infection spread through the airline traffic network we need to cal
 
 We consider a city infected if at least one infected plane landed in this city. Hence, first we need to calculate the probability that the plane coming from the infected city is infected itself.
 
-<img src="pictures/plane_infected.png" width=200>
+<img src="pictures/plane_infected.png" width=200 align='center'>
 
 Intermediate results of the modelling can be found on plots below.
 
