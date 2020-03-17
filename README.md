@@ -49,10 +49,17 @@ where *I* - number of infected in the city, *N* - total population of the city.
 
 Next, we can calculate the probability that the city is infected:
 
-<img src="pictures/city_infected.png" width=700 align='center'>,
+<img src="pictures/city_infected.png" width=700 align='center'>
 
+where *f* - flights from city per day.
 
-Intermediate results of the modelling can be found on plots below.
+As a result, we recalculate the probabilities of infection spread based on the estimated number of the infected population in the infected cities. That approach proved to be surprisingly accurate and was able to "predict" major COVID-19 outbreaks, e.g. in Western Europe or the USA.  
+
+---
+
+## Results
+
+The results of the first 50 days of infection spread modelling can be found on plots below.
 
 Cities.
 ![](pictures/COVID_cities.gif)
