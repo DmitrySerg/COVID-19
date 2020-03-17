@@ -41,9 +41,14 @@ Finally, for each infected city we run an SIR model to get the number of infecte
 
 To model the infection spread through the airline traffic network we need to calculate the probability that a given susceptible city would be infected by its neighbouring infected city on a given day.
 
-We consider a city infected if at least one infected plane landed in this city. Hence, first we need to calculate the probability that the plane coming from the infected city is infected itself.
+We consider a city infected if at least one infected plane landed in this city. Hence, first we need to calculate the probability that the plane coming from the infected city is infected itself:
 
-<img src="pictures/plane_infected.png" width=200 align='center'>
+<img src="pictures/plane_infected.png" width=200 align='center'>,
+
+where *I* - number of infected in the city, *N* - total population of the city
+
+
+
 
 Intermediate results of the modelling can be found on plots below.
 
