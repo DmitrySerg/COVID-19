@@ -49,7 +49,7 @@ where *I* - number of infected in the city, *N* - total population of the city.
 
 Next, we can calculate the probability that the city is infected:
 
-<img src="pictures/city_infected.png" width=800 align='center'>,
+<img src="pictures/city_infected.png" width=700 align='center'>,
 
 
 Intermediate results of the modelling can be found on plots below.
