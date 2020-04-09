@@ -1,6 +1,9 @@
 # COVID-19
 Modelling the disease spread.
 
+The results of the first 50 days of infection spread modelling (cities and directions of infection spread).
+![](pictures/COVID_paths.gif)
+
 [Link to video presentation from the OpenDataDay conference (Russian only)](https://youtu.be/-u3nPFdw2UQ)
 
 The approach is based on combining two general strategies to infection modelling: using [Susceptible-Infectious-Recovered/Removed (SIR)](https://www.maa.org/press/periodicals/loci/joma/the-sir-model-for-spread-of-disease-the-differential-equation-model) model for the city-level spread, and simultaneously modelling the spread of the decease through the air-traffic network.
@@ -57,14 +60,5 @@ where *f* - flights from city per day.
 
 As a result, we recalculate the probabilities of infection spread based on the estimated number of the infected population in the infected cities. That approach proved to be surprisingly accurate and was able to "predict" major COVID-19 outbreaks, e.g. in Western Europe or the USA.  
 
----
 
-## Results
-
-The results of the first 50 days of infection spread modelling can be found on plots below.
-
-Cities.
 ![](pictures/COVID_cities.gif)
-
-Cities and directions of infection spread.
-![](pictures/COVID_paths.gif)
