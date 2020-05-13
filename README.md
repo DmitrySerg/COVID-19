@@ -30,9 +30,11 @@ To model the spread of infection within a particular city we use a homogeneous [
 3. The long incubation period (14 days median, Ibid) and unsymptomatic nature for the majority of infected allow the decease to spread undetected up until first symptomatic infections are detected and tested. That once again aligns with the initial dynamics of the SIR model.
 
 
-The major idea that we've implemented to address the changes in the infection rate due to social distancing and quarantine measures is dynamically modelling the R0 value. The idea is straightforward - adjust R0 in response to the preventive measures. As a baseline, we took the Wuhan example of preventive measures and their approximate timelines.
+The major idea that we've implemented to address the changes in the infection rate due to social distancing and quarantine measures is dynamically modelling the reproduction nunmber **R**. The idea is straightforward - adjust **R** in response to the preventive measures. As a baseline, we took the Wuhan example of preventive measures and their approximate timelines.
 
-During the first days, the infection spreads largely undetected, hence, R0 value is close to its upper bound. On average, after the median incubation period of 14 days, first social distancing measures are taken into action which drives R0 down to its average values. Finally, after approximately 1-month period strict quarantine measures are enforced, including travel bans, area lockdowns, etc. That results in R0 dropping down to its minimum values:
+- During the first days, the infection spreads largely undetected, hence, **R** value is close to its upper bound. 
+- On average, after the **median incubation period of 14 days**, first social distancing measures are taken into action which drives **R** down to its average values.
+- Finally, after approximately 1-month period strict quarantine measures are enforced, including travel bans, area lockdowns, etc. That results in **R** value dropping down to its minimum values
 
 ![](pictures/dynamic_r0.png)
 
