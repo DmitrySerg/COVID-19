@@ -2,7 +2,7 @@
 Modelling the disease spread.
 
 The results of the first 50 days of infection spread modelling (cities and directions of infection spread).
-![](pictures/COVID_paths.gif)
+![](visualisations/infection_spread_realistic_paths.gif)
 
 [Link to video presentation from the OpenDataDay conference (Russian only)](https://youtu.be/-u3nPFdw2UQ)
 
@@ -63,4 +63,4 @@ where *f* - flights from city per day.
 As a result, we recalculate the probabilities of infection spread based on the estimated number of the infected population in the infected cities. That approach proved to be surprisingly accurate and was able to "predict" major COVID-19 outbreaks, e.g. in Western Europe or the USA.  
 
 
-![](pictures/COVID_cities.gif)
+![](visualisations/infection_spread_realistic_nodes.gif)
