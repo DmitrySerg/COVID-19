@@ -1,6 +1,8 @@
 # COVID-19
 Modelling the disease spread.
 
+Link to the DataWondering.com [blog post](https://datawondering.com/recipe-for-disaster-modeling-viral-infection-spread-in-python-d521bf27bec1)
+
 The results of the first 50 days of infection spread modelling (cities and directions of infection spread).
 ![](visualisations/infection_spread_realistic_paths.gif)
 
